@@ -60,7 +60,7 @@ sudo apt update && sudo apt dist-upgrade –y
 2. **#clonar repositorio**
 
 ```bash
-git clone https://github.com/TinchoXD/Grupo4_Docker_Tarea3.git
+git clone https://github.com/PaulJara84/Grupo4_Docker_Tarea3.git
 ```
 <img width="798" height="171" alt="01" src="https://github.com/user-attachments/assets/b3f5cfa3-6a3d-4cb6-815f-8597f1010170" />
 
@@ -124,7 +124,7 @@ docker logs -f fastapi (ctrl + c para salir)
 8. **# iniciar sesión en docker**
 
 ```bash
-docker login -u <username> (docker login -u tinchoxd)
+docker login -u <username> (docker login -u pauljara84)
 ```
 --- 
 
@@ -135,7 +135,8 @@ El token se obtiene en la cuenta de DockerHub
 Docker Hub → Account Settings → Security → New Access Token.
 
 ```
-<img width="962" height="762" alt="09" src="https://github.com/user-attachments/assets/db56a73b-44cb-48d4-80f7-a0c8cc7b00ff" />
+<img width="950" height="785" alt="image" src="https://github.com/user-attachments/assets/3095c0f2-2fc2-4da7-a81d-040aa60054d7" />
+
 
 
 <img width="1002" height="166" alt="10" src="https://github.com/user-attachments/assets/faabc062-af62-409e-8e54-dc1413e77391" />
@@ -198,7 +199,7 @@ docker tag fastapi-multistage:dev <tu_usuario_dockerhub>/fastapi-multistage:late
 
 
       # Ejecutar análisis
-      docker scout cves tinchoxd/fastapi-multistage:latest
+      docker scout cves pauljara84/fastapi-multistage:latest
       
           ✓ SBOM of image already cached, 143 packages indexed
           ✗ Detected 11 vulnerable packages with a total of 23 vulnerabilities
